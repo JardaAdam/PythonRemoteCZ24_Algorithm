@@ -31,3 +31,5 @@ def gcd2(a, b):
 
 
 print(f'nejvetsi spolecny delitel {a} a {b} je {gcd2(a, b)}')
+
+#TODO dodelat testy

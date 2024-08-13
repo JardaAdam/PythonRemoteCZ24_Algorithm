@@ -21,3 +21,4 @@ print(f"{n}! = {s}")
 
 if __name__ == '__main__':
     unittest.main()
+#TODO dodelat testy

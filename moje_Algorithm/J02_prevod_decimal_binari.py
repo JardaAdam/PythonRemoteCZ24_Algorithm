@@ -48,3 +48,4 @@ if __name__ == "__main__":
     for i in range(1, 200):
         print(f"{i}: {dec2bin(i)}")
 
+#TODO dodelat testy

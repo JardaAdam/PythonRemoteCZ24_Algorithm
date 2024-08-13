@@ -21,3 +21,5 @@ def nsn(a, b):
         maximum += max(a, b)
 
 print(nsn(23, 50))
+
+#TODO dodelat testy
