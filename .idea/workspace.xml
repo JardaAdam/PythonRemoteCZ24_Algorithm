@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fae36751-fcbe-4377-8e09-50039fbccea3" name="Changes" comment="podruzne soubory">
-      <change afterPath="$PROJECT_DIR$/moje_Algorithm/J08_phone_number.py" afterDir="false" />
+    <list default="true" id="fae36751-fcbe-4377-8e09-50039fbccea3" name="Changes" comment="pokracovat v TODO">
+      <change afterPath="$PROJECT_DIR$/moje_Algorithm/J11_prefix_find.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +38,11 @@
   "keyToString": {
     "Python.J05_faktorization.executor": "Run",
     "Python.J07_anagram.executor": "Run",
+    "Python.J08_phone_number.executor": "Run",
+    "Python.J09_weird_string.executor": "Run",
+    "Python.J10_morse_code.executor": "Run",
+    "Python.J11_prefix_find.executor": "Run",
+    "Python.J11_prfix_find.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main"
@@ -159,7 +165,95 @@
       <option name="project" value="LOCAL" />
       <updated>1723653201768</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="pridal jsem popis ulohy">
+      <option name="closed" value="true" />
+      <created>1723653506837</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1723653506837</updated>
+    </task>
+    <task id="LOCAL-00011" summary="vytvoril jsem zadani ulohy c.3 z journey">
+      <option name="closed" value="true" />
+      <created>1723653540589</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1723653540589</updated>
+    </task>
+    <task id="LOCAL-00012" summary="workspace.xml">
+      <option name="closed" value="true" />
+      <created>1723653592712</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1723653592712</updated>
+    </task>
+    <task id="LOCAL-00013" summary="ukol 3 z Journey hotov">
+      <option name="closed" value="true" />
+      <created>1723654790830</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1723654790830</updated>
+    </task>
+    <task id="LOCAL-00014" summary="new task n.4 Journey">
+      <option name="closed" value="true" />
+      <created>1723654868786</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1723654868786</updated>
+    </task>
+    <task id="LOCAL-00015" summary="dve ruzna reseni zadani">
+      <option name="closed" value="true" />
+      <created>1723657309433</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1723657309433</updated>
+    </task>
+    <task id="LOCAL-00016" summary="uz to vraci celou vetu ale bez ''">
+      <option name="closed" value="true" />
+      <created>1723658181068</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1723658181068</updated>
+    </task>
+    <task id="LOCAL-00017" summary="dalsi zadani">
+      <option name="closed" value="true" />
+      <created>1723658213651</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1723658213651</updated>
+    </task>
+    <task id="LOCAL-00018" summary="nestihl jsem to takze dodelam z gitu">
+      <option name="closed" value="true" />
+      <created>1723659580257</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1723659580257</updated>
+    </task>
+    <task id="LOCAL-00019" summary="dodelaj jsem uvozovky do vystupu">
+      <option name="closed" value="true" />
+      <created>1723660012158</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1723660012158</updated>
+    </task>
+    <task id="LOCAL-00020" summary="pokracovat v TODO">
+      <option name="closed" value="true" />
+      <created>1723660047875</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1723660047875</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,6 +277,17 @@
     <MESSAGE value="TODO" />
     <MESSAGE value="ukladam hotovy ukol c.2 z Journey" />
     <MESSAGE value="podruzne soubory" />
-    <option name="LAST_COMMIT_MESSAGE" value="podruzne soubory" />
+    <MESSAGE value="pridal jsem popis ulohy" />
+    <MESSAGE value="vytvoril jsem zadani ulohy c.3 z journey" />
+    <MESSAGE value="workspace.xml" />
+    <MESSAGE value="ukol 3 z Journey hotov" />
+    <MESSAGE value="new task n.4 Journey" />
+    <MESSAGE value="dve ruzna reseni zadani" />
+    <MESSAGE value="uz to vraci celou vetu ale bez ''" />
+    <MESSAGE value="dalsi zadani" />
+    <MESSAGE value="nestihl jsem to takze dodelam z gitu" />
+    <MESSAGE value="dodelaj jsem uvozovky do vystupu" />
+    <MESSAGE value="pokracovat v TODO" />
+    <option name="LAST_COMMIT_MESSAGE" value="pokracovat v TODO" />
   </component>
 </project>
