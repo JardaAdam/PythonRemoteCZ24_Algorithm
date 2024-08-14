@@ -23,8 +23,8 @@
 #             index += 1
 #         # print(' ', end='')
 #         result += ' '
-#     return result
-# TODO veta neni uzavrena ''
+#     return result.strip()  # strip() = odstranuje prebytecne mezery
+# TODO veta neni uzavrena '' podle J08
 def to_weird_case(string: str) -> str:
     words = string.split()
     new_words = []
