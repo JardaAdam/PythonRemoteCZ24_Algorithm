@@ -8,23 +8,23 @@
 # to_weird_case('Algorithms and data structures')
 ## => return 'AlGoRiThMs AnD DaTa StRuCtUrEs
 
-#def to_weird_case(string: str) -> str:
-    # new_str = string.split()
-    # result = ''
-    # for words in new_str:
-    #     index = 0
-    #     for char in words:
-    #         if index % 2:
-    #             # print(char.lower(), end='')
-    #             result += char.lower()
-    #         else:
-    #             # print(char.upper(), end='')
-    #             result += char.upper()
-    #         index += 1
-    #     # print(' ', end='')
-    #     result += ' '
-    #     return result
-# TODO nevim proc mi to vypise pouze prvni slovo a ne celou vetu.
+# def to_weird_case(string: str) -> str:
+#     new_str = string.split()
+#     result = ''
+#     for words in new_str:
+#         index = 0
+#         for char in words:
+#             if index % 2:
+#                 # print(char.lower(), end='')
+#                 result += char.lower()
+#             else:
+#                 # print(char.upper(), end='')
+#                 result += char.upper()
+#             index += 1
+#         # print(' ', end='')
+#         result += ' '
+#     return result
+# TODO veta neni uzavrena ''
 def to_weird_case(string: str) -> str:
     words = string.split()
     new_words = []
@@ -40,5 +40,6 @@ def to_weird_case(string: str) -> str:
 
     return ' '.join(new_words)
 
-print(to_weird_case('Algorithms and data structures'))
 
+print(to_weird_case('Algorithms and data structures'))
+# => return 'AlGoRiThMs AnD DaTa StRuCtUrEs'
