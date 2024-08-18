@@ -17,7 +17,7 @@ while True:
 
 d = int(input("Enter positive decimal number: "))
 binary = ''
-while d > 0:
+while d > 0:        # odstranim True a nemusim psat break!!
     r = d % 2
     if r == 1:
         binary = '1' + binary
@@ -27,18 +27,22 @@ while d > 0:
     if d == 0:
         print(binary)
 
-#prepis do funkce
-d = int(input("Enter positive decimal number: "))
-def dec2bin(d):
+print("prepis do funkce")
+# d = int(input("Enter positive decimal number: "))
 
+def dec2bin(d):  # d = cislo ktere musim vlozit
     binary = ''
+
     while True:
         r = d % 2
+
         if r == 1:
             binary = '1' + binary
         else:
             binary = '0' + binary
+
         d = d // 2
+
         if d == 0:
             return (binary)
 
