@@ -1,4 +1,4 @@
-"""Palindrom
+"""Palindrome
 Napište funkci, který zjistí, zda je daný řetězec palindrom.
 Palindrom je řetězec, který se čte stejně zleva i zprava,
 například 'madam' nebo 'racecar'.
@@ -7,10 +7,14 @@ is_palindrom("madam") -> True
 is_palindrom("kobylamamalybok") -> True
 is_palindrom("kokos") -> False
 """
+import re
 
 
 def is_palindrome(word):
+    # Převod na malá písmena
     word = word.lower()
+    # Odstranění všech nealfanumerických znaků (mezery, interpunkce, atd.)
+    word = re.sub(r'[^a-z0-9]', '', word)
     return word == word[::-1]
 
 
@@ -22,4 +26,4 @@ if __name__ == '__main__':
         else:
             print(f"'{string}' není palindrom")
 
-    print(is_palindrome("MAdam"))
+    print(is_palindrome("No lemon , no melon"))
