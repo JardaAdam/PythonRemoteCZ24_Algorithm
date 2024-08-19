@@ -116,7 +116,6 @@ def binary_search_rec(n: int, numbers: List[int], start: int = 0, end: int = Non
     return binary_search_rec(n, numbers, start=mid, end=end)
 
 
-
 if __name__ == '__main__':
     print("search:")
     print(search(5, [1, 1, 1, 2, 2, 3, 5, 6, 8, 9, 10, 12, 15, 20]))
