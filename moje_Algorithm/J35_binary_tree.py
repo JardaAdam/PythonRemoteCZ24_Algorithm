@@ -41,7 +41,29 @@ class BinaryTree:
         right_deep = 0
         if self.right:
             right_deep = self.right.deep()
-        return 1 + max(self.left.deep(), self.right.deep())
+        return 1 + max(left_deep, right_deep)
+
+# TODO vyresit
+""" 
+    Homework:
+    Napište metody, které provedou průchod binárním stromem v 
+    - preorder, 
+    - inorder,
+    - postorder a
+    - level order pořadí a vrátí seznam.
+    """
+
+    def preorder(self):
+        pass
+
+    def inorder(self):
+        pass
+
+    def postorder(self):
+        pass
+
+    def level_order(self):
+        pass
 
 # TODO doladit tuto funkci podle lektora
     # funkce pro vypis stromu
@@ -82,4 +104,8 @@ if __name__ == '__main__':
     for number in numbers:
         binary_tree3.add(number)
     print(f"binary_tree3 has deep {binary_tree3.deep()}")
-        # Fixme dodelat podle lektora
+
+    print(f"binary_tree.inorder(): {binary_tree.inorder()}")
+    print(f"binary_tree.preorder(): {binary_tree.preorder()}")
+    print(f"binary_tree.postorder(): {binary_tree.postorder()}")
+    print(f"binary_tree.level_order(): {binary_tree.level_order()}")
