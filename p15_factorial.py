@@ -1,3 +1,4 @@
+#TODO probrat a pustit video od 1:30:00
 """
 Factorial:
 5! = 5*4*3*2*1

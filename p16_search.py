@@ -1,3 +1,4 @@
+#TODO doprobrat toto cviceni
 """
 Napište funkci, která má jako parametr hodnotu a uspořádaný seznam čísel.
 Funkce vrátí první index ze seznamu, na kterém se nachází hledaná hodnota.
