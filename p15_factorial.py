@@ -34,7 +34,7 @@ Rekurzivní verze faktoriálu:
 
 
 def fact_r(n: int) -> int:
-    print(f"Počítám faktoriál pro číslo {n}")
+    #print(f"Počítám faktoriál pro číslo {n}")
     if n < 0:
         raise ValueError
     if n == 0 or n == 1:
@@ -47,5 +47,6 @@ def fact_r(n: int) -> int:
 
 
 if __name__ == '__main__':
-    for i in range(10):
+    for i in range(100):
         print(f"{i}! = {fact(i)} = {fact_r(i)}")
+    #print(fact(10))
