@@ -15,6 +15,8 @@ Each inherited class should have its own string representation.
 
 
 import abc
+from collections import deque
+import time
 
 
 class Client(abc.ABC):
@@ -80,7 +82,33 @@ class CashRegister:
 
     def process(self) -> Client:
         client = self.queue.pop()
-        print(f"Process client: {client}")
+        #print(f"Process client: {client}")
+        return client
+
+
+"""Exercise 2.4: A quick cash register in the store
+
+To implement the queue, the list usage is not optimal. 
+We have to remove the item from the beginning which is a costly operation that requires
+copying all items on the list. This lasts proportionally to the length of the list. 
+To optimize the queue operation, create a new class using the deque type available 
+in the collections module.
+
+deque has methods known from the list, i.e.append and pop. 
+It also has popleft and appendleft methods. 
+To get the queue behavior, use the append and popleft or appendleft and pop methods.
+"""
+
+
+class FasterCashRegister(CashRegister):
+
+    def __init__(self):
+        super().__init__()
+        self.queue = deque()
+
+    def process(self):
+        client = self.queue.popleft()
+        #print(f"Process client: {client}")
         return client
 
 
@@ -102,3 +130,22 @@ if __name__ == '__main__':
     cr.process()
     cr.process()
 
+    """Exercise 2.5 Compare the duration of action
+    Compare the speed of both applications."""
+    start = time.time()
+
+    cr = CashRegister()
+    for i in range(400000):
+        cr.add_client(client1)
+    for i in range(400000):
+        cr.process()
+    print(f"CashRegister: {time.time() - start}")
+
+    start = time.time()
+
+    cr = FasterCashRegister()
+    for i in range(400000):
+        cr.add_client(client1)
+    for i in range(400000):
+        cr.process()
+    print(f"FasterCashRegister: {time.time() - start}")
