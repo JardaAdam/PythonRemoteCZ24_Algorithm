@@ -20,7 +20,7 @@ def rpn(string: str) -> int:
     tokens = string.split()  # prevede string na seznam a oddeli cisla mezerami
 
     for token in tokens:
-        if token.isdigit():  # Pokud je token číslo
+        if token.isdigit():  # Pokud je token číslo # TODO doplnit si co je presne isdigit!!
             stack.append(int(token))
         else:  # Pokud je token operátor
             b = stack.pop()  # Druhý operand  # poradi ve kterem nacitam cisla ze zasobniku
