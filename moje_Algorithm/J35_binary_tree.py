@@ -1,0 +1,85 @@
+class BinaryTree:
+
+    def __init__(self, value):
+        self.value = value
+        self.left = None
+        self.right = None
+
+    def add(self, value):
+        if value < self.value:   # kdyz je hodnota mensi nez aktualni hodnota
+            if self.left:
+                self.left.add(value)
+            else:
+                self.left = BinaryTree(value)
+        elif value > self.value:   # kdyz je hodnota vetsi nez aktualni hodnota
+            if self.right:
+                self.right.add(value)
+            else:
+                self.right = BinaryTree(value)
+
+    def find(self, value) -> bool:
+        """find
+        :param value = hledana hodnota
+        :return True pokud je hodnota v binarnim strome
+        """
+        if self.value == value:
+            return True
+        if self.left and value < self.value:
+            return self.left.find(value)
+        elif self.right and value > self.value:
+            return self.right.find(value)
+        return False
+
+    def deep(self):
+        """
+        Vrati hloubku daneho stromu
+        :return: hloubka
+        """
+        left_deep = 0
+        if self.left:
+            left_deep = self.left.deep()
+        right_deep = 0
+        if self.right:
+            right_deep = self.right.deep()
+        return 1 + max(self.left.deep(), self.right.deep())
+
+# TODO doladit tuto funkci podle lektora
+    # funkce pro vypis stromu
+    # def __str__(self):
+    #     result = str(self.value) +
+    #     result +=str(self.left) +
+    #     result +=str(self.right) +
+    #     return result
+
+
+if __name__ == '__main__':
+    # polopate popsany prubeh vytvareni stromu
+    root = BinaryTree(10)
+    root.left = BinaryTree(5)
+    root.left.left = BinaryTree(3)
+    root.left.right = BinaryTree(7)
+    root.left.left.left = BinaryTree(1)
+    root.left.left.right = BinaryTree(4)
+    root.left.right.right = BinaryTree(8)
+    root.right = BinaryTree(12)
+    # bezne vytvoreni BinaryTree
+
+    binary_tree = BinaryTree(10)
+    numbers = [10, 5, 3, 12, 11, 7, 15, 4, 8, 1]
+    for number in numbers:
+        binary_tree.add(number)
+    print(binary_tree)
+
+    for number in range(1,20):
+        print(f"{number} -> {binary_tree.find(number)}")
+
+    binary_tree2 = BinaryTree(10)
+    print(f"binary_tree has deep {binary_tree.deep()}")
+    print(f"binary_tree2 has deep {binary_tree2.deep()}")
+
+    numbers = range(1, 20)
+    binary_tree3 = BinaryTree(0)
+    for number in numbers:
+        binary_tree3.add(number)
+    print(f"binary_tree3 has deep {binary_tree3.deep()}")
+        # Fixme dodelat podle lektora
