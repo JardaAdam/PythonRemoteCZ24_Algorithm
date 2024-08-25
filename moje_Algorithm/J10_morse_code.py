@@ -12,7 +12,7 @@ MORSE_CODE = {'.-': 'A', '-...': 'B', '-.-.': 'C', '-..': 'D',
               '---...': ':', '-.-.-.': ';', '-...-': '=', '.-.-.': '+', '-....-': '-', '..--.-': '_',
               '.-..-.': '"', '...-..-': '$', '.--.-.': '@', '...---...': 'SOS'}
 
-#TODO dodelat podle lektora
+
 def decode_morse(morse_code: str) -> str:
     #print(f"morse_code: {morse_code}")
 
@@ -20,26 +20,26 @@ def decode_morse(morse_code: str) -> str:
     morse_code = morse_code.strip()
     #print(f"morse_code.strip(): '{morse_code}'")
 
-    # rozdelim si zadani na jednotlive znaky
+    # rozdelim si zadani na jednotlive slova
     morse_word_list = morse_code.split('   ')
     result = ''
-    morse_char_list = morse_code.split()
-    print(f"morse_char_list: {morse_char_list}")
-    # FIXME: osetrit tri mezery => oddelovac slov
+    for morse_word in morse_word_list:
+        # Rozsekám si slova na jednotlivá písmena
+        morse_char_list = morse_word.split()
+        #    print(f"morse_char_list: {morse_char_list}")
+        # FIXME: osetrit tri mezery => oddelovac slov
 
-    # kazdy znam prevedu podle slovniku MORSE_CODE na pismeno
+        # kazdy znam prevedu podle slovniku MORSE_CODE na pismeno
+        for morse_char in morse_char_list:
+            result += MORSE_CODE[morse_char]
 
-    for morse_char in morse_char_list:
-        result
-    pass
+        result += ' '
 
-
-
-
-
+    # vratim vysledek
+    return result.strip()
 
 
 if __name__ == "__main__":
-    print(f"'decode_morse('.... . -.--   .--- ..- -.. .')  ## => 'HEY JUDE'
-    decode_morse(' . ')  ## => 'E'
-    decode_morse('...   ---   ...')  ## => 'S O S'
+    print(f"'{decode_morse('.... . -.--   .--- ..- -.. .')}'")  ## => 'HEY JUDE'
+    print(f"'{decode_morse(' . ')}'")  ## => 'E'
+    print(f"'{decode_morse('...   ---   ...')}'")  ## => 'S O S'
