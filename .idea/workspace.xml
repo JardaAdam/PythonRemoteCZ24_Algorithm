@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fae36751-fcbe-4377-8e09-50039fbccea3" name="Changes" comment="popisoval jsem si jak co funguje u videa a snazil se pochopit co proc a jak">
-      <change afterPath="$PROJECT_DIR$/moje_Algorithm/J22_merge_sort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moje_Algorithm/J23_quicksort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moje_Algorithm/J24_Exercise_E_Abs_sort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moje_Algorithm/J25_Odd_even_sort.py" afterDir="false" />
+    <list default="true" id="fae36751-fcbe-4377-8e09-50039fbccea3" name="Changes" comment="workspace">
+      <change afterPath="$PROJECT_DIR$/moje_Algorithm/J36_Eight_queens_problem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moje_Algorithm/J37_Rucksack_problem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moje_Algorithm/J38_N_TSP(minvzdalenost).py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,9 +71,16 @@
     "Python.J22_merge_sort.executor": "Run",
     "Python.J24_Exercise_E_Abs_sort.executor": "Run",
     "Python.J25_Odd_even_sort.executor": "Run",
+    "Python.J26_String_length_sort.executor": "Run",
+    "Python.J27_2D_points_sort.executor": "Run",
+    "Python.J28_Number_of_dividers_sort.executor": "Run",
     "Python.J33_J_Reverse_Polish_Notation.executor": "Run",
     "Python.J34_K_Priority_queue.executor": "Run",
     "Python.J35_binary_tree.executor": "Run",
+    "Python.J36_Eight_queens_problem.executor": "Run",
+    "Python.J37_Rucksack_problem.executor": "Run",
+    "Python.J38_N_TSP(minvzdalenost).executor": "Run",
+    "Python.J_work_sheet.executor": "Run",
     "Python.main.executor": "Run",
     "Python.p11_Exercise_A_Longest_prefix.executor": "Run",
     "Python.p12_Exercise_B_Roman_numbers.executor": "Run",
@@ -440,7 +446,31 @@
       <option name="project" value="LOCAL" />
       <updated>1724792558421</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="priklady sortovani">
+      <option name="closed" value="true" />
+      <created>1725227935862</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1725227935862</updated>
+    </task>
+    <task id="LOCAL-00041" summary="ukoly na doreseni">
+      <option name="closed" value="true" />
+      <created>1725227959406</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1725227959406</updated>
+    </task>
+    <task id="LOCAL-00042" summary="workspace">
+      <option name="closed" value="true" />
+      <created>1725227976829</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1725227976829</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -455,9 +485,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="dve ruzna reseni zadani" />
-    <MESSAGE value="uz to vraci celou vetu ale bez ''" />
-    <MESSAGE value="dalsi zadani" />
     <MESSAGE value="nestihl jsem to takze dodelam z gitu" />
     <MESSAGE value="dodelaj jsem uvozovky do vystupu" />
     <MESSAGE value="pokracovat v TODO" />
@@ -480,6 +507,9 @@
     <MESSAGE value="dodelat co jsem nestihl v hodine" />
     <MESSAGE value="dolazeno funguje to pridal jsem zadani domaciho ukolu" />
     <MESSAGE value="popisoval jsem si jak co funguje u videa a snazil se pochopit co proc a jak" />
-    <option name="LAST_COMMIT_MESSAGE" value="popisoval jsem si jak co funguje u videa a snazil se pochopit co proc a jak" />
+    <MESSAGE value="priklady sortovani" />
+    <MESSAGE value="ukoly na doreseni" />
+    <MESSAGE value="workspace" />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace" />
   </component>
 </project>
