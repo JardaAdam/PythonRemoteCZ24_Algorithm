@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fae36751-fcbe-4377-8e09-50039fbccea3" name="Changes" comment="workspace">
-      <change afterPath="$PROJECT_DIR$/moje_Algorithm/J36_Eight_queens_problem.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moje_Algorithm/J37_Rucksack_problem.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moje_Algorithm/J38_N_TSP(minvzdalenost).py" afterDir="false" />
+    <list default="true" id="fae36751-fcbe-4377-8e09-50039fbccea3" name="Changes" comment="dnesni prace workspace">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moje_Algorithm/J38_N_TSP(minvzdalenost).py" beforeDir="false" afterPath="$PROJECT_DIR$/moje_Algorithm/J38_N_TSP(minvzdalenost).py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,50 +42,50 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests in J13_test_Palindrom.py.executor": "Run",
-    "Python.J02_dec2bin.executor": "Run",
-    "Python.J03_Nejvetsi_delitel.executor": "Run",
-    "Python.J05_faktorization.executor": "Run",
-    "Python.J07_anagram.executor": "Run",
-    "Python.J08_phone_number.executor": "Run",
-    "Python.J09_weird_string.executor": "Run",
-    "Python.J10_morse_code.executor": "Run",
-    "Python.J11_prefix_find.executor": "Run",
-    "Python.J11_prfix_find.executor": "Run",
-    "Python.J12_roman_number.executor": "Run",
-    "Python.J13_C_Palindrom.executor": "Run",
-    "Python.J14_D_Sieve_of_Eratosthenes.executor": "Run",
-    "Python.J14_D_is prime.executor": "Run",
-    "Python.J14_D_prime_numbers.executor": "Run",
-    "Python.J15_factorial.executor": "Run",
-    "Python.J16_search.executor": "Run",
-    "Python.J16_search_binary_iter_rec.executor": "Run",
-    "Python.J18_sort_minimax.executor": "Run",
-    "Python.J19_selection_sort.executor": "Run",
-    "Python.J20_bubble_sort.executor": "Run",
-    "Python.J21_insertion_sort.executor": "Run",
-    "Python.J22_merge_sort.executor": "Run",
-    "Python.J24_Exercise_E_Abs_sort.executor": "Run",
-    "Python.J25_Odd_even_sort.executor": "Run",
-    "Python.J26_String_length_sort.executor": "Run",
-    "Python.J27_2D_points_sort.executor": "Run",
-    "Python.J28_Number_of_dividers_sort.executor": "Run",
-    "Python.J33_J_Reverse_Polish_Notation.executor": "Run",
-    "Python.J34_K_Priority_queue.executor": "Run",
-    "Python.J35_binary_tree.executor": "Run",
-    "Python.J36_Eight_queens_problem.executor": "Run",
-    "Python.J37_Rucksack_problem.executor": "Run",
-    "Python.J38_N_TSP(minvzdalenost).executor": "Run",
-    "Python.J_work_sheet.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.p11_Exercise_A_Longest_prefix.executor": "Run",
-    "Python.p12_Exercise_B_Roman_numbers.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests in J13_test_Palindrom.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.J02_dec2bin.executor&quot;: &quot;Run&quot;,
+    &quot;Python.J03_Nejvetsi_delitel.executor&quot;: &quot;Run&quot;,
+    &quot;Python.J05_faktorization.executor&quot;: &quot;Run&quot;,
+    &quot;Python.J07_anagram.executor&quot;: &quot;Run&quot;,
+    &quot;Python.J08_phone_number.executor&quot;: &quot;Run&quot;,
+    &quot;Python.J09_weird_string.executor&quot;: &quot;Run&quot;,
+    &quot;Python.J10_morse_code.executor&quot;: &quot;Run&quot;,
+    &quot;Python.J11_prefix_find.executor&quot;: &quot;Run&quot;,
+    &quot;Python.J11_prfix_find.executor&quot;: &quot;Run&quot;,
+    &quot;Python.J12_roman_number.executor&quot;: &quot;Run&quot;,
+    &quot;Python.J13_C_Palindrom.executor&quot;: &quot;Run&quot;,
+    &quot;Python.J14_D_Sieve_of_Eratosthenes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.J14_D_is prime.executor&quot;: &quot;Run&quot;,
+    &quot;Python.J14_D_prime_numbers.executor&quot;: &quot;Run&quot;,
+    &quot;Python.J15_factorial.executor&quot;: &quot;Run&quot;,
+    &quot;Python.J16_search.executor&quot;: &quot;Run&quot;,
+    &quot;Python.J16_search_binary_iter_rec.executor&quot;: &quot;Run&quot;,
+    &quot;Python.J18_sort_minimax.executor&quot;: &quot;Run&quot;,
+    &quot;Python.J19_selection_sort.executor&quot;: &quot;Run&quot;,
+    &quot;Python.J20_bubble_sort.executor&quot;: &quot;Run&quot;,
+    &quot;Python.J21_insertion_sort.executor&quot;: &quot;Run&quot;,
+    &quot;Python.J22_merge_sort.executor&quot;: &quot;Run&quot;,
+    &quot;Python.J24_Exercise_E_Abs_sort.executor&quot;: &quot;Run&quot;,
+    &quot;Python.J25_Odd_even_sort.executor&quot;: &quot;Run&quot;,
+    &quot;Python.J26_String_length_sort.executor&quot;: &quot;Run&quot;,
+    &quot;Python.J27_2D_points_sort.executor&quot;: &quot;Run&quot;,
+    &quot;Python.J28_Number_of_dividers_sort.executor&quot;: &quot;Run&quot;,
+    &quot;Python.J33_J_Reverse_Polish_Notation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.J34_K_Priority_queue.executor&quot;: &quot;Run&quot;,
+    &quot;Python.J35_binary_tree.executor&quot;: &quot;Run&quot;,
+    &quot;Python.J36_Eight_queens_problem.executor&quot;: &quot;Run&quot;,
+    &quot;Python.J37_Rucksack_problem.executor&quot;: &quot;Run&quot;,
+    &quot;Python.J38_N_TSP(minvzdalenost).executor&quot;: &quot;Run&quot;,
+    &quot;Python.J_work_sheet.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.p11_Exercise_A_Longest_prefix.executor&quot;: &quot;Run&quot;,
+    &quot;Python.p12_Exercise_B_Roman_numbers.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\jardy\PycharmProjects\pythonProject\sda-python-intermediate\pythonProjectCZ24_Algorithm\moje_Algorithm" />
@@ -470,7 +468,23 @@
       <option name="project" value="LOCAL" />
       <updated>1725227976829</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="dnesni prace">
+      <option name="closed" value="true" />
+      <created>1725302541021</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1725302541021</updated>
+    </task>
+    <task id="LOCAL-00044" summary="dnesni prace workspace">
+      <option name="closed" value="true" />
+      <created>1725302553506</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1725302553506</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -485,8 +499,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="nestihl jsem to takze dodelam z gitu" />
-    <MESSAGE value="dodelaj jsem uvozovky do vystupu" />
     <MESSAGE value="pokracovat v TODO" />
     <MESSAGE value="hotovy ukol" />
     <MESSAGE value="hotovy ukol prefix" />
@@ -510,6 +522,8 @@
     <MESSAGE value="priklady sortovani" />
     <MESSAGE value="ukoly na doreseni" />
     <MESSAGE value="workspace" />
-    <option name="LAST_COMMIT_MESSAGE" value="workspace" />
+    <MESSAGE value="dnesni prace" />
+    <MESSAGE value="dnesni prace workspace" />
+    <option name="LAST_COMMIT_MESSAGE" value="dnesni prace workspace" />
   </component>
 </project>
