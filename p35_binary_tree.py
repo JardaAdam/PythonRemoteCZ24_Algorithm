@@ -97,7 +97,7 @@ if __name__ == '__main__':
     print(f"binary_tree has deep {binary_tree.deep()}")
     print(f"binary_tree2 has deep {binary_tree2.deep()}")
 
-    numbers = range(1,20)
+    numbers = range(1, 20)
     binary_tree3 = BinaryTree(0)
     for number in numbers:
         binary_tree3.add(number)
