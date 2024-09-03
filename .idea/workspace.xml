@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fae36751-fcbe-4377-8e09-50039fbccea3" name="Changes" comment="dnesni prace workspace">
+    <list default="true" id="fae36751-fcbe-4377-8e09-50039fbccea3" name="Changes" comment="napsani kodu pro hledani ostrovu">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moje_Algorithm/J38_N_TSP(minvzdalenost).py" beforeDir="false" afterPath="$PROJECT_DIR$/moje_Algorithm/J38_N_TSP(minvzdalenost).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moje_Algorithm/J28_Number_of_dividers_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/moje_Algorithm/J28_Number_of_dividers_sort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moje_Algorithm/J29_stack.py" beforeDir="false" afterPath="$PROJECT_DIR$/moje_Algorithm/J29_stack.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,50 +43,62 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python tests.Python tests in J13_test_Palindrom.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.J02_dec2bin.executor&quot;: &quot;Run&quot;,
-    &quot;Python.J03_Nejvetsi_delitel.executor&quot;: &quot;Run&quot;,
-    &quot;Python.J05_faktorization.executor&quot;: &quot;Run&quot;,
-    &quot;Python.J07_anagram.executor&quot;: &quot;Run&quot;,
-    &quot;Python.J08_phone_number.executor&quot;: &quot;Run&quot;,
-    &quot;Python.J09_weird_string.executor&quot;: &quot;Run&quot;,
-    &quot;Python.J10_morse_code.executor&quot;: &quot;Run&quot;,
-    &quot;Python.J11_prefix_find.executor&quot;: &quot;Run&quot;,
-    &quot;Python.J11_prfix_find.executor&quot;: &quot;Run&quot;,
-    &quot;Python.J12_roman_number.executor&quot;: &quot;Run&quot;,
-    &quot;Python.J13_C_Palindrom.executor&quot;: &quot;Run&quot;,
-    &quot;Python.J14_D_Sieve_of_Eratosthenes.executor&quot;: &quot;Run&quot;,
-    &quot;Python.J14_D_is prime.executor&quot;: &quot;Run&quot;,
-    &quot;Python.J14_D_prime_numbers.executor&quot;: &quot;Run&quot;,
-    &quot;Python.J15_factorial.executor&quot;: &quot;Run&quot;,
-    &quot;Python.J16_search.executor&quot;: &quot;Run&quot;,
-    &quot;Python.J16_search_binary_iter_rec.executor&quot;: &quot;Run&quot;,
-    &quot;Python.J18_sort_minimax.executor&quot;: &quot;Run&quot;,
-    &quot;Python.J19_selection_sort.executor&quot;: &quot;Run&quot;,
-    &quot;Python.J20_bubble_sort.executor&quot;: &quot;Run&quot;,
-    &quot;Python.J21_insertion_sort.executor&quot;: &quot;Run&quot;,
-    &quot;Python.J22_merge_sort.executor&quot;: &quot;Run&quot;,
-    &quot;Python.J24_Exercise_E_Abs_sort.executor&quot;: &quot;Run&quot;,
-    &quot;Python.J25_Odd_even_sort.executor&quot;: &quot;Run&quot;,
-    &quot;Python.J26_String_length_sort.executor&quot;: &quot;Run&quot;,
-    &quot;Python.J27_2D_points_sort.executor&quot;: &quot;Run&quot;,
-    &quot;Python.J28_Number_of_dividers_sort.executor&quot;: &quot;Run&quot;,
-    &quot;Python.J33_J_Reverse_Polish_Notation.executor&quot;: &quot;Run&quot;,
-    &quot;Python.J34_K_Priority_queue.executor&quot;: &quot;Run&quot;,
-    &quot;Python.J35_binary_tree.executor&quot;: &quot;Run&quot;,
-    &quot;Python.J36_Eight_queens_problem.executor&quot;: &quot;Run&quot;,
-    &quot;Python.J37_Rucksack_problem.executor&quot;: &quot;Run&quot;,
-    &quot;Python.J38_N_TSP(minvzdalenost).executor&quot;: &quot;Run&quot;,
-    &quot;Python.J_work_sheet.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.p11_Exercise_A_Longest_prefix.executor&quot;: &quot;Run&quot;,
-    &quot;Python.p12_Exercise_B_Roman_numbers.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests in J13_test_Palindrom.py.executor": "Run",
+    "Python tests.Python tests in J29_test_stack.py.executor": "Run",
+    "Python tests.Python tests in J40_test_Island_counter.py.executor": "Run",
+    "Python.J02_dec2bin.executor": "Run",
+    "Python.J03_Nejvetsi_delitel.executor": "Run",
+    "Python.J05_faktorization.executor": "Run",
+    "Python.J07_anagram.executor": "Run",
+    "Python.J08_phone_number.executor": "Run",
+    "Python.J09_weird_string.executor": "Run",
+    "Python.J10_morse_code.executor": "Run",
+    "Python.J11_prefix_find.executor": "Run",
+    "Python.J11_prfix_find.executor": "Run",
+    "Python.J12_roman_number.executor": "Run",
+    "Python.J13_C_Palindrom.executor": "Run",
+    "Python.J14_D_Sieve_of_Eratosthenes.executor": "Run",
+    "Python.J14_D_is prime.executor": "Run",
+    "Python.J14_D_prime_numbers.executor": "Run",
+    "Python.J15_factorial.executor": "Run",
+    "Python.J16_search.executor": "Run",
+    "Python.J16_search_binary_iter_rec.executor": "Run",
+    "Python.J18_sort_minimax.executor": "Run",
+    "Python.J19_selection_sort.executor": "Run",
+    "Python.J20_bubble_sort.executor": "Run",
+    "Python.J21_insertion_sort.executor": "Run",
+    "Python.J22_merge_sort.executor": "Run",
+    "Python.J24_Exercise_E_Abs_sort.executor": "Run",
+    "Python.J25_Odd_even_sort.executor": "Run",
+    "Python.J26_String_length_sort.executor": "Run",
+    "Python.J27_2D_points_sort.executor": "Run",
+    "Python.J28_Number_of_dividers_sort.executor": "Run",
+    "Python.J29_stack.executor": "Run",
+    "Python.J30_BooksStack.executor": "Run",
+    "Python.J33_J_Reverse_Polish_Notation.executor": "Run",
+    "Python.J34_K_Priority_queue.executor": "Run",
+    "Python.J35_binary_tree.executor": "Run",
+    "Python.J36_Eight_queens_problem.executor": "Run",
+    "Python.J37_Rucksack_problem.executor": "Run",
+    "Python.J38_N_TSP(minvzdalenost).executor": "Run",
+    "Python.J40_Island_counter.executor": "Run",
+    "Python.J40_test_Island_counter.executor": "Run",
+    "Python.J_work_sheet.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.p11_Exercise_A_Longest_prefix.executor": "Run",
+    "Python.p12_Exercise_B_Roman_numbers.executor": "Run",
+    "Python.p29_stack.executor": "Run",
+    "Python.p30_Exercise_1_BooksStack.executor": "Run",
+    "Python.p38_Exercise_N_TSP.executor": "Run",
+    "Python.p40_Homework_Islands.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/jardy/PycharmProjects/pythonProject/sda-python-intermediate"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\jardy\PycharmProjects\pythonProject\sda-python-intermediate\pythonProjectCZ24_Algorithm\moje_Algorithm" />
@@ -131,62 +144,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1723573523185</updated>
-    </task>
-    <task id="LOCAL-00001" summary="zakladam novy projekt a pridavam dnesni praci">
-      <option name="closed" value="true" />
-      <created>1723574180817</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1723574180817</updated>
-    </task>
-    <task id="LOCAL-00002" summary="finale delitele">
-      <option name="closed" value="true" />
-      <created>1723574739584</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1723574739584</updated>
-    </task>
-    <task id="LOCAL-00003" summary="dodal jsem druhou variantu">
-      <option name="closed" value="true" />
-      <created>1723574763824</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1723574763824</updated>
-    </task>
-    <task id="LOCAL-00004" summary="pridal jsem novy soubor">
-      <option name="closed" value="true" />
-      <created>1723574785392</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1723574785392</updated>
-    </task>
-    <task id="LOCAL-00005" summary="pridal jsem .gitignore">
-      <option name="closed" value="true" />
-      <created>1723575137404</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1723575137404</updated>
-    </task>
-    <task id="LOCAL-00006" summary="funkce najdi prvocisla">
-      <option name="closed" value="true" />
-      <created>1723576244950</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1723576244950</updated>
-    </task>
-    <task id="LOCAL-00007" summary="TODO">
-      <option name="closed" value="true" />
-      <created>1723576255942</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1723576255942</updated>
     </task>
     <task id="LOCAL-00008" summary="ukladam hotovy ukol c.2 z Journey">
       <option name="closed" value="true" />
@@ -484,7 +441,103 @@
       <option name="project" value="LOCAL" />
       <updated>1725302553506</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="dodělal jsem ukol J38 napsal si poynamky a odskoušel.">
+      <option name="closed" value="true" />
+      <created>1725303772561</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1725303772561</updated>
+    </task>
+    <task id="LOCAL-00046" summary="vytvořil jsem algoritmus na počítání ostrovů v mřížce a udělal testy">
+      <option name="closed" value="true" />
+      <created>1725305860118</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1725305860118</updated>
+    </task>
+    <task id="LOCAL-00047" summary="zmena v vcs.xml">
+      <option name="closed" value="true" />
+      <created>1725306941923</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1725306941923</updated>
+    </task>
+    <task id="LOCAL-00048" summary="popisky v zasobniku oprava chybi a testy">
+      <option name="closed" value="true" />
+      <created>1725369549709</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1725369549709</updated>
+    </task>
+    <task id="LOCAL-00049" summary="popisky v zasobniku oprava chybi a testy">
+      <option name="closed" value="true" />
+      <created>1725369711697</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1725369711697</updated>
+    </task>
+    <task id="LOCAL-00050" summary="dokonceni cviceni a uprava aby moje a jeji knihy se jmenovali our stack">
+      <option name="closed" value="true" />
+      <created>1725375131663</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1725375131664</updated>
+    </task>
+    <task id="LOCAL-00051" summary="optimalizace">
+      <option name="closed" value="true" />
+      <created>1725375267424</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1725375267424</updated>
+    </task>
+    <task id="LOCAL-00052" summary="optimalizace">
+      <option name="closed" value="true" />
+      <created>1725375331512</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1725375331512</updated>
+    </task>
+    <task id="LOCAL-00053" summary="dokonceni a odskouseni">
+      <option name="closed" value="true" />
+      <created>1725375380534</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1725375380534</updated>
+    </task>
+    <task id="LOCAL-00054" summary="vycisteni chyb">
+      <option name="closed" value="true" />
+      <created>1725375467437</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1725375467437</updated>
+    </task>
+    <task id="LOCAL-00055" summary="vycisteni chyb">
+      <option name="closed" value="true" />
+      <created>1725375616392</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1725375616392</updated>
+    </task>
+    <task id="LOCAL-00056" summary="napsani kodu pro hledani ostrovu">
+      <option name="closed" value="true" />
+      <created>1725375827911</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1725375827912</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -499,15 +552,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="pokracovat v TODO" />
-    <MESSAGE value="hotovy ukol" />
-    <MESSAGE value="hotovy ukol prefix" />
-    <MESSAGE value="workspace.xml" />
-    <MESSAGE value="popsal jsem si dec2bin" />
-    <MESSAGE value="dopsal jsem poznamky do J03" />
-    <MESSAGE value="J12-&gt; doupravil jsem a porovnal s petrem" />
-    <MESSAGE value="J11 upraveno a Pridano Petrovo reseni" />
-    <MESSAGE value="J13 vyhledavani palindromu, vytvoreni testu a hledani jak se zapisou testy pro soubor ktery je v jine slozce" />
     <MESSAGE value="J13 vyhledavani palindromu, vytvoreni testu a hledani jak se zapisou testy pro soubor ktery je v jine slozce.&#10;vyreseni problemu s No lemon , no melon -&gt; pridany radek ohledne vynechani specialnich znaku" />
     <MESSAGE value="J14 rozdelil jsem si hledani prvocisel na dva soubory pro porovnani jako je rozdil mezi hledanim is prime a Eratosthenes" />
     <MESSAGE value="rozdil mezi recursivnim vypoctem a normalnim vypoctem faktorialu" />
@@ -524,6 +568,15 @@
     <MESSAGE value="workspace" />
     <MESSAGE value="dnesni prace" />
     <MESSAGE value="dnesni prace workspace" />
-    <option name="LAST_COMMIT_MESSAGE" value="dnesni prace workspace" />
+    <MESSAGE value="dodělal jsem ukol J38 napsal si poynamky a odskoušel." />
+    <MESSAGE value="vytvořil jsem algoritmus na počítání ostrovů v mřížce a udělal testy" />
+    <MESSAGE value="zmena v vcs.xml" />
+    <MESSAGE value="popisky v zasobniku oprava chybi a testy" />
+    <MESSAGE value="dokonceni cviceni a uprava aby moje a jeji knihy se jmenovali our stack" />
+    <MESSAGE value="optimalizace" />
+    <MESSAGE value="dokonceni a odskouseni" />
+    <MESSAGE value="vycisteni chyb" />
+    <MESSAGE value="napsani kodu pro hledani ostrovu" />
+    <option name="LAST_COMMIT_MESSAGE" value="napsani kodu pro hledani ostrovu" />
   </component>
 </project>
