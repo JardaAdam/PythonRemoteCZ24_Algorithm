@@ -1,6 +1,7 @@
 """Exercise 1: Stack
 
-Write code simulating a Stack of books. The class should allow you to add and remove books from the Stack, browse titles in Stack and show the last position on the Stack. Use magic methods to allow for:
+Write code simulating a Stack of books. The class should allow you to add and remove books from the Stack,
+browse titles in Stack and show the last position on the Stack. Use magic methods to allow for:
 
     adding Stacks together
     comparing Stack sizes
