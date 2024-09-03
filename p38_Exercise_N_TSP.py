@@ -11,8 +11,8 @@ from itertools import permutations
 def count_distance(cities, path):
     distance = 0  # na začátku má trasa vzdálenost 0
     # následně procházím všechna města na trase a přičítám vzdálenost
-    for i in range(len(path)-1):
-        distance += cities[path[i]][path[i+1]]
+    for i in range(len(path) - 1):
+        distance += cities[path[i]][path[i + 1]]
     # z koncového města se zase musíme vrátit zpět do počátečního města
     distance += cities[path[-1]][path[0]]
     # vrátím výslednou vzdálenost
@@ -37,13 +37,12 @@ def tsp(cities):
 
 
 cities = [
-   # A   B   C   D
+    # A   B   C   D
     [0, 10, 15, 20],  # A
     [10, 0, 35, 25],  # B
     [15, 35, 0, 30],  # C
-    [20, 25, 30, 0]   # D
-    ]
-
+    [20, 25, 30, 0]  # D
+]
 
 best_path, minimal_distance = tsp(cities)
 print(f"Minimal path: {best_path} with distance: {minimal_distance}.")
