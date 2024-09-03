@@ -8,19 +8,19 @@ kterou může obchodní cestující absolvovat.
 from itertools import permutations
 
 
-def count_distance(cities, path):
+def count_distance(Cities, path):
     distance = 0  # pocatecni vzdalenost
     # nasledne prochazim vsechna mesta a pricitam vzdalenost
     for i in range(len(path) - 1):
-        distance += cities[path[i]][path[i + 1]]
+        distance += Cities[path[i]][path[i + 1]]
 
     # pridani vzdalenosti zpet do vychoziho mesta
-    distance += cities[path[-1]][path[0]]
+    distance += Cities[path[-1]][path[0]]
     # vratim vyslednou vzdalenost
     return distance
 
 
-def tsp(cities):
+def tsp():
     n = len(cities)
     all_paths = permutations(range(n))
     minimal_distance = float('inf')  # inicializace s nekonecnem
@@ -47,5 +47,5 @@ if __name__ == '__main__':
         [20, 25, 30, 0]  # D
     ]
 
-    best_path, minimal_distance = tsp(cities)
+    best_path, minimal_distance = tsp()
     print(f"Nejkratší trasa je: {best_path} s minimální vzdáleností: {minimal_distance}")
