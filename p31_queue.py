@@ -18,7 +18,7 @@ class TaskManager:
     def remove_task(self):
         if len(self.tasks):
             return self.tasks.pop(0)
-        #raise ValueError
+        # raise ValueError
         return ""
 
     def __str__(self):
