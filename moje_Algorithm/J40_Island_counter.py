@@ -1,7 +1,8 @@
 """Počet ostrovů
 Máte dvourozměrné pole, kde 1 představuje zemi a 0 představuje vodu.
 Napište funkci, která spočítá počet ostrovů.
-Ostrov je souvislá oblast země, která je obklopena vodou a tvoří ji buňky, které sousedí vodorovně nebo svisle."""
+Ostrov je souvislá oblast země, která je obklopena vodou a tvoří ji buňky,
+které sousedí vodorovně nebo svisle."""
 
 
 def number_of_islands(Grid):
