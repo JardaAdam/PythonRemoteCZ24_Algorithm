@@ -6,11 +6,12 @@ abyste pro zadané číslo hledali počet dělitelů jenom jednou.
 """
 from J23_quicksort import quicksort
 
-def number_of_dividers_quicksort(arr):
+
+def number_of_dividers_quicksort():
     # TODO: implementovat funkci number_of_dividers_sort
     return quicksort(numbers)
 
 
 if __name__ == '__main__':
     numbers = [5, 8, 12, 16, 1, 17, 30, 3, 9, 30, 101, 101]
-    print(number_of_dividers_quicksort(numbers))
+    print(number_of_dividers_quicksort())
