@@ -26,7 +26,7 @@ class BooksStack:
     def all_books(self) -> List[str]:
         return self.books_stack
 
-    def __add__(self,first_stack, second_stack):
+    def __add__(self, second_stack):
         new_stack = BooksStack(self.stack_name, self.category)
         new_stack.books_stack = self.books_stack + second_stack.books_stack
         return new_stack
