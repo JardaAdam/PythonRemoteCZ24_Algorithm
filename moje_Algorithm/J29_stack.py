@@ -71,7 +71,7 @@ def brackets2(word):
             if len(stack) == 0 or stack.pop() != '<':
                 return False
         print(stack)
-    if len(stack) > 0: # dulezite na konci nesmi zustat nic v zasobniku aby
+    if len(stack) > 0:  # dulezite na konci nesmi zustat nic v zasobniku aby
         # mohl byt vysledek True
         return False
     return True
