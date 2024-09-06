@@ -14,7 +14,7 @@ Each inherited class should have its own string representation.
 """
 
 import abc
-from collections import deque # oboustrana fronta
+from collections import deque # oboustrana fronta pouziva appendleft, popleft
 import time
 
 
@@ -108,7 +108,7 @@ class FasterCashRegister(CashRegister): # dedi z CashRegister
         self.queue = deque()  # optimalizovana fronta pro odebirani z obou stran
         # ale je o dost rychlejsi pri odebirani z indexu 0 nez normalni definice
         # fronty. pri dlouhe fronte urcite pouzivat deque!!
-
+        # deque = oboustana fronta
     def process(self):
         client = self.queue.popleft()  #
         # print(f"Process client: {client}")
