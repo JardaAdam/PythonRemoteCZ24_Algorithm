@@ -51,7 +51,8 @@ class PriorityQueue:
             return self.priority_queue.popleft()
         if self.normal_queue:
             return self.normal_queue.popleft()
-        raise IndexError("Dequeue from an empty queue")
+        else:
+            return IndexError("Dequeue from an empty queue")
 
 
 if __name__ == '__main__':
@@ -69,4 +70,4 @@ if __name__ == '__main__':
     print(queue.dequeue())  # "normal task 2"
     print(queue.dequeue())  # "normal task 3"
     print(queue.dequeue())  # "normal task 4"
-    # print(queue.dequeue())
+    print(queue.dequeue())  # "Dequeue from an empty queue"
