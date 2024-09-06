@@ -118,11 +118,11 @@ class BinaryTree:
 
 # TODO doladit tuto funkci podle lektora
 # funkce pro vypis stromu
-# def __str__(self):
-#     result = str(self.value) +
-#     result +=str(self.left) +
-#     result +=str(self.right) +
-#     return result
+    def __str__(self):
+        result = str(self.value) + ', '
+        result +=str(self.left) + ', '
+        result +=str(self.right) + ', '
+        return result
 
 
 if __name__ == '__main__':
