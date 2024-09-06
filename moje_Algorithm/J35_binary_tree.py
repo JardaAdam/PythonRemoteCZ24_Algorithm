@@ -160,3 +160,5 @@ if __name__ == '__main__':
     print(f"binary_tree.preorder(): {binary_tree.preorder()}")
     print(f"binary_tree.postorder(): {binary_tree.postorder()}")
     print(f"binary_tree.level_order(): {binary_tree.level_order()}")
+
+    # TODO video 22/08/2024 3:05:45 pokracovani vysvetleni binarnich stromu
