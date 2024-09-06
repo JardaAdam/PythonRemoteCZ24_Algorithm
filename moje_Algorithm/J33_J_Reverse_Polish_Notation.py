@@ -13,6 +13,7 @@ Například:
 "14" -> 14.
 "
 """
+""" pro reseni teto ulohy pouziji stack ( zasobnik )"""
 from collections import deque
 
 def rpn(string: str) -> int:
@@ -20,11 +21,12 @@ def rpn(string: str) -> int:
     tokens = string.split()  # prevede string na seznam a oddeli cisla mezerami
 
     for token in tokens:
-        if token.isdigit():  # Pokud je token číslo # TODO doplnit si co je presne isdigit!!
-            stack.append(int(token))
+        if token.isdigit():  # Pokud je token cislo -> True a prida znak do Stack
+            # tim rozebere zadani na cisla a znaminka (operator)
+            stack.append(int(token)) # uklada tokeny ktere jsou int = cisla
         else:  # Pokud je token operátor
             b = stack.pop()  # Druhý operand  # poradi ve kterem nacitam cisla ze zasobniku
-            a = stack.pop()  # První operand
+            a = stack.pop()  # První operand  # proto musi mit toto poradi aby se mezi sebou operovali spravne
 
             if token == '+':
                 result = a + b
