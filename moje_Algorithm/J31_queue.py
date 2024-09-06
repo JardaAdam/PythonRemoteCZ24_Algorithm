@@ -3,8 +3,6 @@ Správce úkolů:
 - přidávat nové úkoly
 - plnit úkoly (ve stejném pořadí = FIFO)
 """
-# TODO video 2024/08/21 2:58:20
-
 
 class TaskManager:
     def __init__(self):
@@ -17,10 +15,12 @@ class TaskManager:
         return self.tasks
 
     def remove_task(self):
-        if len(self.tasks):
+        if len(self.tasks):  # pokud neni seznam prazdny napis task
             return self.tasks.pop(0)
+            # diky indexu 0 odebiram ze zecatku prvni vlozeny ukol prvni resim
+            # zpusob fronty!!
         # raise ValueError
-        return ""
+        return "Nemáš žádné další úkoly."
 
     def __str__(self):
         return f"You have {len(self.tasks)} tasks."
