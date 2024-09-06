@@ -1,3 +1,6 @@
+from collections import deque
+
+
 class BinaryTree:
 
     def __init__(self, value):
@@ -6,12 +9,12 @@ class BinaryTree:
         self.right = None
 
     def add(self, value):
-        if value < self.value:   # kdyz je hodnota mensi nez aktualni hodnota
+        if value < self.value:  # kdyz je hodnota mensi nez aktualni hodnota
             if self.left:
                 self.left.add(value)
             else:
                 self.left = BinaryTree(value)
-        elif value > self.value:   # kdyz je hodnota vetsi nez aktualni hodnota
+        elif value > self.value:  # kdyz je hodnota vetsi nez aktualni hodnota
             if self.right:
                 self.right.add(value)
             else:
@@ -43,8 +46,8 @@ class BinaryTree:
             right_deep = self.right.deep()
         return 1 + max(left_deep, right_deep)
 
-# TODO vyresit
-""" 
+    # TODO projit a pochopit funkce nize
+    """ 
     Homework:
     Napište metody, které provedou průchod binárním stromem v 
     - preorder, 
@@ -53,25 +56,73 @@ class BinaryTree:
     - level order pořadí a vrátí seznam.
     """
 
+    # Pre-order traversal (Kořen -> Levá větev -> Pravá větev)
     def preorder(self):
-        pass
+        """Pre-order průchod stromem. Nejprve navštívíme kořen, poté levý podstrom a nakonec pravý podstrom.
+        :return: seznam hodnot v pre-order pořadí
+        """
+        result = [self.value]  # Začínáme s hodnotou aktuálního uzlu (kořene)
+        if self.left:
+            result += self.left.preorder()  # Rekurzivně přidáme levý podstrom
+        if self.right:
+            result += self.right.preorder()  # Rekurzivně přidáme pravý podstrom
+        return result
 
+    # In-order traversal (Levá větev -> Kořen -> Pravá větev)
     def inorder(self):
-        pass
+        """
+        In-order průchod stromem. Nejprve navštívíme levý podstrom, poté kořen a nakonec pravý podstrom.
+        :return: seznam hodnot v in-order pořadí
+        """
+        result = []
+        if self.left:
+            result += self.left.inorder()  # Rekurzivně přidáme levý podstrom
+        result.append(self.value)  # Přidáme kořen
+        if self.right:
+            result += self.right.inorder()  # Rekurzivně přidáme pravý podstrom
+        return result
+
+        # Post-order traversal (Levá větev -> Pravá větev -> Kořen)
 
     def postorder(self):
-        pass
+        """
+        Post-order průchod stromem. Nejprve navštívíme levý podstrom, poté pravý podstrom a nakonec kořen.
+        :return: seznam hodnot v post-order pořadí
+        """
+        result = []
+        if self.left:
+            result += self.left.postorder()  # Rekurzivně přidáme levý podstrom
+        if self.right:
+            result += self.right.postorder()  # Rekurzivně přidáme pravý podstrom
+        result.append(self.value)  # Přidáme kořen
+        return result
+
+        # Level-order traversal (průchod po vrstvách, tedy úroveň po úrovni)
 
     def level_order(self):
-        pass
+        """
+        Level-order průchod stromem. Průchod po jednotlivých úrovních stromu pomocí fronty.
+        :return: seznam hodnot v level-order pořadí
+        """
+        result = []
+        queue = deque([self])  # Vytvoříme frontu a přidáme do ní kořen
+        while queue:
+            node = queue.popleft()  # Odebereme první prvek z fronty
+            result.append(node.value)  # Přidáme hodnotu uzlu do výsledku
+            if node.left:
+                queue.append(node.left)  # Pokud existuje levý podstrom, přidáme ho do fronty
+            if node.right:
+                queue.append(node.right)  # Pokud existuje pravý podstrom, přidáme ho do fronty
+        return result
+
 
 # TODO doladit tuto funkci podle lektora
-    # funkce pro vypis stromu
-    # def __str__(self):
-    #     result = str(self.value) +
-    #     result +=str(self.left) +
-    #     result +=str(self.right) +
-    #     return result
+# funkce pro vypis stromu
+# def __str__(self):
+#     result = str(self.value) +
+#     result +=str(self.left) +
+#     result +=str(self.right) +
+#     return result
 
 
 if __name__ == '__main__':
@@ -92,7 +143,7 @@ if __name__ == '__main__':
         binary_tree.add(number)
     print(binary_tree)
 
-    for number in range(1,20):
+    for number in range(1, 20):
         print(f"{number} -> {binary_tree.find(number)}")
 
     binary_tree2 = BinaryTree(10)
