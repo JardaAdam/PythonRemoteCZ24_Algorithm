@@ -13,7 +13,6 @@ women as Madam, men as Mr, and no prefixes for children.
 Each inherited class should have its own string representation.
 """
 
-
 import abc
 from collections import deque
 import time
@@ -82,7 +81,7 @@ class CashRegister:
 
     def process(self) -> Client:
         client = self.queue.pop()
-        #print(f"Process client: {client}")
+        # print(f"Process client: {client}")
         return client
 
 
@@ -104,11 +103,11 @@ class FasterCashRegister(CashRegister):
 
     def __init__(self):
         super().__init__()
-        self.queue = deque()
+        self.queue = deque()  # oboustrana fronta
 
     def process(self):
         client = self.queue.popleft()
-        #print(f"Process client: {client}")
+        # print(f"Process client: {client}")
         return client
 
 

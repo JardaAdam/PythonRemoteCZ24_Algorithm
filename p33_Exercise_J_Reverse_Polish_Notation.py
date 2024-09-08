@@ -14,6 +14,7 @@ Například:
 "
 """
 
+""" pro reseni teto ulohy pouziji stack ( zasobnik )"""
 
 def rpn(s: str) -> int:
     stack = []

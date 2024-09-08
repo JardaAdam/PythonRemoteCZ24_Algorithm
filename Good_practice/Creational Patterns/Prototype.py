@@ -1,17 +1,18 @@
 # vytváření objektů se skládá ze dvou kroků.
 
-    # vytvoření základního objektu (např. částečně dokončeného), prototypu, který se naklonuje za účelem
-    # výroby nových objektů
+# vytvoření základního objektu (např. částečně dokončeného), prototypu, který se
+# naklonuje za účelem výroby nových objektů
 
-    # nastavení zbývajících atributů objektů
+# nastavení zbývajících atributů objektů
 
 # pouzivame na slozitejsi projekty
 
 # je vhodny pro objekty ktere maji vetsinu vlastnosti shodnou a potrebujeme je v nove instanci
 
 # deep.copy = chci si uchovat original ale pouzit ho pro dalsi praci.
-        #   = zkopiruju si a ulozim vysledek narocne operace (ktera muze trvat treba 30min)
-        # a s kopii pracuji dal ale nezmenim original.
+#   = zkopiruju si a ulozim vysledek narocne operace (ktera muze trvat treba 30min)
+# a s kopii pracuji dal ale nezmenim original.
+
 
 import copy
 
