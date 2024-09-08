@@ -4,10 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fae36751-fcbe-4377-8e09-50039fbccea3" name="Changes" comment="napsani kodu pro hledani ostrovu">
+    <list default="true" id="fae36751-fcbe-4377-8e09-50039fbccea3" name="Changes" comment="dodelal jsem funkce co byli za ukol">
+      <change afterPath="$PROJECT_DIR$/Good_practice/Creational Patterns/abstract_factory_basic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Good_practice/Creational Patterns/builder_priklad.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Good_practice/Creational Patterns/factory_method_real_cash_transfer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Good_practice/Creational Patterns/singleton_popis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Good_practice/Structural_patterns/Adapter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Good_practice/Structural_patterns/bridgeGPT.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Good_practice/Structural_patterns/bridge_drawing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Good_practice/Structural_patterns/bridge_drink_vysvetleni.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Good_practice/Structural_patterns/composite.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Good_practice/Structural_patterns/decorator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Good_practice/Structural_patterns/facade.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Good_practice/Structural_patterns/fly_weight.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Good_practice/Structural_patterns/proxy_basic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Good_practice/Structural_patterns/proxy_log_control.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Good_practice/abstract_method_basic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Good_practice/exercise/Lajky_pocitani.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Good_practice/work_sheet.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moje_Algorithm/J28_Number_of_dividers_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/moje_Algorithm/J28_Number_of_dividers_sort.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moje_Algorithm/J29_stack.py" beforeDir="false" afterPath="$PROJECT_DIR$/moje_Algorithm/J29_stack.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Good_practice/Abstract_Factory.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Good_practice/Factory_method.py" beforeDir="false" afterPath="$PROJECT_DIR$/Good_practice/Creational Patterns/factory_method_basic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Good_practice/Prototype.py" beforeDir="false" afterPath="$PROJECT_DIR$/Good_practice/Creational Patterns/Prototype.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Good_practice/Singleton.py" beforeDir="false" afterPath="$PROJECT_DIR$/Good_practice/Creational Patterns/Singleton.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Good_practice/builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Good_practice/Creational Patterns/builder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Good_practice/builder2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Good_practice/Creational Patterns/builder2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Good_practice/real_singleton.py" beforeDir="false" afterPath="$PROJECT_DIR$/Good_practice/Creational Patterns/real_singleton.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p32_Exercise_2_Clients.py" beforeDir="false" afterPath="$PROJECT_DIR$/p32_Exercise_2_Clients.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p33_Exercise_J_Reverse_Polish_Notation.py" beforeDir="false" afterPath="$PROJECT_DIR$/p33_Exercise_J_Reverse_Polish_Notation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +72,9 @@
     "Python tests.Python tests in J13_test_Palindrom.py.executor": "Run",
     "Python tests.Python tests in J29_test_stack.py.executor": "Run",
     "Python tests.Python tests in J40_test_Island_counter.py.executor": "Run",
+    "Python.Adapter.executor": "Run",
+    "Python.Bridge.executor": "Run",
+    "Python.Factory_method.executor": "Run",
     "Python.J02_dec2bin.executor": "Run",
     "Python.J03_Nejvetsi_delitel.executor": "Run",
     "Python.J05_faktorization.executor": "Run",
@@ -77,6 +104,8 @@
     "Python.J28_Number_of_dividers_sort.executor": "Run",
     "Python.J29_stack.executor": "Run",
     "Python.J30_BooksStack.executor": "Run",
+    "Python.J31_queue.executor": "Run",
+    "Python.J32_Clients.executor": "Run",
     "Python.J33_J_Reverse_Polish_Notation.executor": "Run",
     "Python.J34_K_Priority_queue.executor": "Run",
     "Python.J35_binary_tree.executor": "Run",
@@ -86,13 +115,33 @@
     "Python.J40_Island_counter.executor": "Run",
     "Python.J40_test_Island_counter.executor": "Run",
     "Python.J_work_sheet.executor": "Run",
+    "Python.Lajky_pocitani.executor": "Run",
+    "Python.Prototype.executor": "Run",
+    "Python.Singleton.executor": "Run",
+    "Python.abstract_factory_basic.executor": "Run",
+    "Python.bridge.executor": "Run",
+    "Python.bridge_drink.executor": "Run",
+    "Python.builder.executor": "Run",
+    "Python.builder2.executor": "Run",
+    "Python.decorator.executor": "Run",
+    "Python.factory_method_real_cash_transfer.executor": "Run",
+    "Python.fly_weight.executor": "Run",
     "Python.main.executor": "Run",
     "Python.p11_Exercise_A_Longest_prefix.executor": "Run",
     "Python.p12_Exercise_B_Roman_numbers.executor": "Run",
     "Python.p29_stack.executor": "Run",
     "Python.p30_Exercise_1_BooksStack.executor": "Run",
+    "Python.p32_Exercise_2_Clients.executor": "Run",
+    "Python.p33_Exercise_J_Reverse_Polish_Notation.executor": "Run",
+    "Python.p35_binary_tree.executor": "Run",
     "Python.p38_Exercise_N_TSP.executor": "Run",
     "Python.p40_Homework_Islands.executor": "Run",
+    "Python.proxy.executor": "Run",
+    "Python.proxy_log_control.executor": "Run",
+    "Python.real_singleton.executor": "Run",
+    "Python.sheet.executor": "Run",
+    "Python.singleton_priklad.executor": "Run",
+    "Python.work_sheet.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
@@ -101,6 +150,9 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jardy\PycharmProjects\pythonProject\sda-python-intermediate\pythonProjectCZ24_Algorithm\Good_practice" />
+      <recent name="C:\Users\jardy\PycharmProjects\pythonProject\sda-python-intermediate\pythonProjectCZ24_Algorithm\Good_practice\Structural_patterns" />
+      <recent name="C:\Users\jardy\PycharmProjects\pythonProject\sda-python-intermediate\pythonProjectCZ24_Algorithm\Good_practice\Creational Patterns" />
       <recent name="C:\Users\jardy\PycharmProjects\pythonProject\sda-python-intermediate\pythonProjectCZ24_Algorithm\moje_Algorithm" />
       <recent name="C:\Users\jardy\PycharmProjects\pythonProject\sda-python-intermediate\pythonProjectCZ24_Algorithm\moje_Algorithm\tests" />
     </key>
@@ -144,118 +196,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1723573523185</updated>
-    </task>
-    <task id="LOCAL-00008" summary="ukladam hotovy ukol c.2 z Journey">
-      <option name="closed" value="true" />
-      <created>1723653141819</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1723653141819</updated>
-    </task>
-    <task id="LOCAL-00009" summary="podruzne soubory">
-      <option name="closed" value="true" />
-      <created>1723653201768</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1723653201768</updated>
-    </task>
-    <task id="LOCAL-00010" summary="pridal jsem popis ulohy">
-      <option name="closed" value="true" />
-      <created>1723653506837</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1723653506837</updated>
-    </task>
-    <task id="LOCAL-00011" summary="vytvoril jsem zadani ulohy c.3 z journey">
-      <option name="closed" value="true" />
-      <created>1723653540589</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1723653540589</updated>
-    </task>
-    <task id="LOCAL-00012" summary="workspace.xml">
-      <option name="closed" value="true" />
-      <created>1723653592712</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1723653592712</updated>
-    </task>
-    <task id="LOCAL-00013" summary="ukol 3 z Journey hotov">
-      <option name="closed" value="true" />
-      <created>1723654790830</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1723654790830</updated>
-    </task>
-    <task id="LOCAL-00014" summary="new task n.4 Journey">
-      <option name="closed" value="true" />
-      <created>1723654868786</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1723654868786</updated>
-    </task>
-    <task id="LOCAL-00015" summary="dve ruzna reseni zadani">
-      <option name="closed" value="true" />
-      <created>1723657309433</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1723657309433</updated>
-    </task>
-    <task id="LOCAL-00016" summary="uz to vraci celou vetu ale bez ''">
-      <option name="closed" value="true" />
-      <created>1723658181068</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1723658181068</updated>
-    </task>
-    <task id="LOCAL-00017" summary="dalsi zadani">
-      <option name="closed" value="true" />
-      <created>1723658213651</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1723658213651</updated>
-    </task>
-    <task id="LOCAL-00018" summary="nestihl jsem to takze dodelam z gitu">
-      <option name="closed" value="true" />
-      <created>1723659580257</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1723659580257</updated>
-    </task>
-    <task id="LOCAL-00019" summary="dodelaj jsem uvozovky do vystupu">
-      <option name="closed" value="true" />
-      <created>1723660012158</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1723660012158</updated>
-    </task>
-    <task id="LOCAL-00020" summary="pokracovat v TODO">
-      <option name="closed" value="true" />
-      <created>1723660047875</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1723660047875</updated>
-    </task>
-    <task id="LOCAL-00021" summary="hotovy ukol">
-      <option name="closed" value="true" />
-      <created>1723662494329</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1723662494329</updated>
     </task>
     <task id="LOCAL-00022" summary="hotovy ukol prefix">
       <option name="closed" value="true" />
@@ -537,7 +477,119 @@
       <option name="project" value="LOCAL" />
       <updated>1725375827912</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="oprava chyb">
+      <option name="closed" value="true" />
+      <created>1725376225543</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1725376225543</updated>
+    </task>
+    <task id="LOCAL-00058" summary="oprava chyb">
+      <option name="closed" value="true" />
+      <created>1725376249309</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1725376249309</updated>
+    </task>
+    <task id="LOCAL-00059" summary="workspace.xml">
+      <option name="closed" value="true" />
+      <created>1725376272901</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1725376272901</updated>
+    </task>
+    <task id="LOCAL-00060" summary="oprava chyb">
+      <option name="closed" value="true" />
+      <created>1725376571146</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1725376571146</updated>
+    </task>
+    <task id="LOCAL-00061" summary="dokoukat a dodelat">
+      <option name="closed" value="true" />
+      <created>1725376734736</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1725376734736</updated>
+    </task>
+    <task id="LOCAL-00062" summary="dnešní práce">
+      <option name="closed" value="true" />
+      <created>1725394035687</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1725394035687</updated>
+    </task>
+    <task id="LOCAL-00063" summary="doplnil jsem task manager (fronta)">
+      <option name="closed" value="true" />
+      <created>1725651297843</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1725651297844</updated>
+    </task>
+    <task id="LOCAL-00064" summary="J32 time.time pokud jaky je rozdil mezi normalni queue a deque">
+      <option name="closed" value="true" />
+      <created>1725655176693</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1725655176693</updated>
+    </task>
+    <task id="LOCAL-00065" summary="doplnil jsem vysvetlivky">
+      <option name="closed" value="true" />
+      <created>1725656627967</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1725656627967</updated>
+    </task>
+    <task id="LOCAL-00066" summary="doplnil jsem vysvetlivky">
+      <option name="closed" value="true" />
+      <created>1725656634052</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1725656634052</updated>
+    </task>
+    <task id="LOCAL-00067" summary="upravil jsem vystup pri prazdne fronte, poznamky">
+      <option name="closed" value="true" />
+      <created>1725658616780</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1725658616780</updated>
+    </task>
+    <task id="LOCAL-00068" summary="dodelal jsem funkce co byli za ukol">
+      <option name="closed" value="true" />
+      <created>1725660835961</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1725660835961</updated>
+    </task>
+    <task id="LOCAL-00069" summary="dodelal jsem funkce co byli za ukol">
+      <option name="closed" value="true" />
+      <created>1725660988453</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1725660988453</updated>
+    </task>
+    <task id="LOCAL-00070" summary="dodelal jsem funkce co byli za ukol">
+      <option name="closed" value="true" />
+      <created>1725661161146</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1725661161146</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -552,15 +604,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="J13 vyhledavani palindromu, vytvoreni testu a hledani jak se zapisou testy pro soubor ktery je v jine slozce.&#10;vyreseni problemu s No lemon , no melon -&gt; pridany radek ohledne vynechani specialnich znaku" />
-    <MESSAGE value="J14 rozdelil jsem si hledani prvocisel na dva soubory pro porovnani jako je rozdil mezi hledanim is prime a Eratosthenes" />
-    <MESSAGE value="rozdil mezi recursivnim vypoctem a normalnim vypoctem faktorialu" />
-    <MESSAGE value="priklady vyhledavani" />
-    <MESSAGE value="poznamky pro studium" />
-    <MESSAGE value="poznamky pro studium" />
-    <MESSAGE value="dopsani TODO" />
-    <MESSAGE value="prioritni fronta dve moznosti" />
-    <MESSAGE value="dodelat co jsem nestihl v hodine" />
     <MESSAGE value="dolazeno funguje to pridal jsem zadani domaciho ukolu" />
     <MESSAGE value="popisoval jsem si jak co funguje u videa a snazil se pochopit co proc a jak" />
     <MESSAGE value="priklady sortovani" />
@@ -577,6 +620,26 @@
     <MESSAGE value="dokonceni a odskouseni" />
     <MESSAGE value="vycisteni chyb" />
     <MESSAGE value="napsani kodu pro hledani ostrovu" />
-    <option name="LAST_COMMIT_MESSAGE" value="napsani kodu pro hledani ostrovu" />
+    <MESSAGE value="workspace.xml" />
+    <MESSAGE value="oprava chyb" />
+    <MESSAGE value="dokoukat a dodelat" />
+    <MESSAGE value="dnešní práce" />
+    <MESSAGE value="doplnil jsem task manager (fronta)" />
+    <MESSAGE value="J32 time.time pokud jaky je rozdil mezi normalni queue a deque" />
+    <MESSAGE value="doplnil jsem vysvetlivky" />
+    <MESSAGE value="upravil jsem vystup pri prazdne fronte, poznamky" />
+    <MESSAGE value="dodelal jsem funkce co byli za ukol" />
+    <option name="LAST_COMMIT_MESSAGE" value="dodelal jsem funkce co byli za ukol" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Good_practice/Creational Patterns/factory_method_basic.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
