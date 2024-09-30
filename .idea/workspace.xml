@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fae36751-fcbe-4377-8e09-50039fbccea3" name="Changes" comment="zacatek bloku database_programing" />
+    <list default="true" id="fae36751-fcbe-4377-8e09-50039fbccea3" name="Changes" comment="presun do souboru p01_mysql">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -130,11 +132,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jardy\PycharmProjects\pythonProject\sda-python-intermediate\pythonProjectCZ24_Algorithm\Database_programing\p01_mysql" />
       <recent name="C:\Users\jardy\PycharmProjects\pythonProject\sda-python-intermediate\pythonProjectCZ24_Algorithm\Good_practice" />
       <recent name="C:\Users\jardy\PycharmProjects\pythonProject\sda-python-intermediate\pythonProjectCZ24_Algorithm\Good_practice\Structural_patterns" />
       <recent name="C:\Users\jardy\PycharmProjects\pythonProject\sda-python-intermediate\pythonProjectCZ24_Algorithm\Good_practice\Creational Patterns" />
       <recent name="C:\Users\jardy\PycharmProjects\pythonProject\sda-python-intermediate\pythonProjectCZ24_Algorithm\moje_Algorithm" />
-      <recent name="C:\Users\jardy\PycharmProjects\pythonProject\sda-python-intermediate\pythonProjectCZ24_Algorithm\moje_Algorithm\tests" />
     </key>
   </component>
   <component name="RunManager">
@@ -176,14 +178,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1723573523185</updated>
-    </task>
-    <task id="LOCAL-00026" summary="J12-&gt; doupravil jsem a porovnal s petrem">
-      <option name="closed" value="true" />
-      <created>1724011455045</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1724011455045</updated>
     </task>
     <task id="LOCAL-00027" summary="J11 upraveno a Pridano Petrovo reseni">
       <option name="closed" value="true" />
@@ -569,7 +563,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727723751647</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="presun do souboru p01_mysql">
+      <option name="closed" value="true" />
+      <created>1727724013322</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1727724013323</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -584,7 +586,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ukoly na doreseni" />
     <MESSAGE value="workspace" />
     <MESSAGE value="dnesni prace" />
     <MESSAGE value="dnesni prace workspace" />
@@ -609,6 +610,7 @@
     <MESSAGE value="vytvareni materialu pro pochopeni tohoto bloku" />
     <MESSAGE value="vytvoreni souboru pro druhy behavioral patterns" />
     <MESSAGE value="zacatek bloku database_programing" />
-    <option name="LAST_COMMIT_MESSAGE" value="zacatek bloku database_programing" />
+    <MESSAGE value="presun do souboru p01_mysql" />
+    <option name="LAST_COMMIT_MESSAGE" value="presun do souboru p01_mysql" />
   </component>
 </project>
