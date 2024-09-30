@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fae36751-fcbe-4377-8e09-50039fbccea3" name="Changes" comment="vytvoreni souboru pro druhy behavioral patterns">
-      <change afterPath="$PROJECT_DIR$/Database_programing/01_SQL.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Database_programing/02_create_database.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Database_programing/03_insert_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Good_practice/work_sheet.py" beforeDir="false" afterPath="$PROJECT_DIR$/Good_practice/work_sheet.py" afterDir="false" />
-    </list>
+    <list default="true" id="fae36751-fcbe-4377-8e09-50039fbccea3" name="Changes" comment="zacatek bloku database_programing" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -183,14 +176,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1723573523185</updated>
-    </task>
-    <task id="LOCAL-00025" summary="dopsal jsem poznamky do J03">
-      <option name="closed" value="true" />
-      <created>1724010568740</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1724010568740</updated>
     </task>
     <task id="LOCAL-00026" summary="J12-&gt; doupravil jsem a porovnal s petrem">
       <option name="closed" value="true" />
@@ -576,7 +561,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725993597426</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="zacatek bloku database_programing">
+      <option name="closed" value="true" />
+      <created>1727723751647</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1727723751647</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -591,7 +584,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="priklady sortovani" />
     <MESSAGE value="ukoly na doreseni" />
     <MESSAGE value="workspace" />
     <MESSAGE value="dnesni prace" />
@@ -616,6 +608,7 @@
     <MESSAGE value="dodelal jsem funkce co byli za ukol" />
     <MESSAGE value="vytvareni materialu pro pochopeni tohoto bloku" />
     <MESSAGE value="vytvoreni souboru pro druhy behavioral patterns" />
-    <option name="LAST_COMMIT_MESSAGE" value="vytvoreni souboru pro druhy behavioral patterns" />
+    <MESSAGE value="zacatek bloku database_programing" />
+    <option name="LAST_COMMIT_MESSAGE" value="zacatek bloku database_programing" />
   </component>
 </project>
