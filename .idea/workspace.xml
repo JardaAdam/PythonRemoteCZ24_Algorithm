@@ -4,34 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fae36751-fcbe-4377-8e09-50039fbccea3" name="Changes" comment="dodelal jsem funkce co byli za ukol">
-      <change afterPath="$PROJECT_DIR$/Good_practice/Creational Patterns/abstract_factory_basic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Good_practice/Creational Patterns/builder_priklad.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Good_practice/Creational Patterns/factory_method_real_cash_transfer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Good_practice/Creational Patterns/singleton_popis.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Good_practice/Structural_patterns/Adapter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Good_practice/Structural_patterns/bridgeGPT.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Good_practice/Structural_patterns/bridge_drawing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Good_practice/Structural_patterns/bridge_drink_vysvetleni.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Good_practice/Structural_patterns/composite.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Good_practice/Structural_patterns/decorator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Good_practice/Structural_patterns/facade.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Good_practice/Structural_patterns/fly_weight.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Good_practice/Structural_patterns/proxy_basic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Good_practice/Structural_patterns/proxy_log_control.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Good_practice/abstract_method_basic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Good_practice/exercise/Lajky_pocitani.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Good_practice/work_sheet.py" afterDir="false" />
+    <list default="true" id="fae36751-fcbe-4377-8e09-50039fbccea3" name="Changes" comment="vytvoreni souboru pro druhy behavioral patterns">
+      <change afterPath="$PROJECT_DIR$/Database_programing/01_SQL.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Database_programing/02_create_database.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Database_programing/03_insert_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Good_practice/Abstract_Factory.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Good_practice/Factory_method.py" beforeDir="false" afterPath="$PROJECT_DIR$/Good_practice/Creational Patterns/factory_method_basic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Good_practice/Prototype.py" beforeDir="false" afterPath="$PROJECT_DIR$/Good_practice/Creational Patterns/Prototype.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Good_practice/Singleton.py" beforeDir="false" afterPath="$PROJECT_DIR$/Good_practice/Creational Patterns/Singleton.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Good_practice/builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Good_practice/Creational Patterns/builder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Good_practice/builder2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Good_practice/Creational Patterns/builder2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Good_practice/real_singleton.py" beforeDir="false" afterPath="$PROJECT_DIR$/Good_practice/Creational Patterns/real_singleton.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/p32_Exercise_2_Clients.py" beforeDir="false" afterPath="$PROJECT_DIR$/p32_Exercise_2_Clients.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/p33_Exercise_J_Reverse_Polish_Notation.py" beforeDir="false" afterPath="$PROJECT_DIR$/p33_Exercise_J_Reverse_Polish_Notation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Good_practice/work_sheet.py" beforeDir="false" afterPath="$PROJECT_DIR$/Good_practice/work_sheet.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +51,9 @@
     "Python tests.Python tests in J13_test_Palindrom.py.executor": "Run",
     "Python tests.Python tests in J29_test_stack.py.executor": "Run",
     "Python tests.Python tests in J40_test_Island_counter.py.executor": "Run",
+    "Python.01_SQL.executor": "Run",
+    "Python.02_create_database.executor": "Run",
+    "Python.03_insert_data.executor": "Run",
     "Python.Adapter.executor": "Run",
     "Python.Bridge.executor": "Run",
     "Python.Factory_method.executor": "Run",
@@ -124,9 +106,14 @@
     "Python.builder.executor": "Run",
     "Python.builder2.executor": "Run",
     "Python.decorator.executor": "Run",
+    "Python.factory_method_basic.executor": "Run",
     "Python.factory_method_real_cash_transfer.executor": "Run",
     "Python.fly_weight.executor": "Run",
+    "Python.flyweight_students_optimalization.executor": "Run",
+    "Python.iterator.executor": "Run",
+    "Python.iterator_pattern.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.memento.executor": "Run",
     "Python.p11_Exercise_A_Longest_prefix.executor": "Run",
     "Python.p12_Exercise_B_Roman_numbers.executor": "Run",
     "Python.p29_stack.executor": "Run",
@@ -196,30 +183,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1723573523185</updated>
-    </task>
-    <task id="LOCAL-00022" summary="hotovy ukol prefix">
-      <option name="closed" value="true" />
-      <created>1723662531649</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1723662531649</updated>
-    </task>
-    <task id="LOCAL-00023" summary="workspace.xml">
-      <option name="closed" value="true" />
-      <created>1723662549163</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1723662549163</updated>
-    </task>
-    <task id="LOCAL-00024" summary="popsal jsem si dec2bin">
-      <option name="closed" value="true" />
-      <created>1724010028233</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1724010028233</updated>
     </task>
     <task id="LOCAL-00025" summary="dopsal jsem poznamky do J03">
       <option name="closed" value="true" />
@@ -589,7 +552,31 @@
       <option name="project" value="LOCAL" />
       <updated>1725661161146</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="vytvareni materialu pro pochopeni tohoto bloku">
+      <option name="closed" value="true" />
+      <created>1725818268367</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1725818268368</updated>
+    </task>
+    <task id="LOCAL-00072" summary="vytvareni materialu pro pochopeni tohoto bloku">
+      <option name="closed" value="true" />
+      <created>1725818276020</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1725818276020</updated>
+    </task>
+    <task id="LOCAL-00073" summary="vytvoreni souboru pro druhy behavioral patterns">
+      <option name="closed" value="true" />
+      <created>1725993597425</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1725993597426</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -604,8 +591,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="dolazeno funguje to pridal jsem zadani domaciho ukolu" />
-    <MESSAGE value="popisoval jsem si jak co funguje u videa a snazil se pochopit co proc a jak" />
     <MESSAGE value="priklady sortovani" />
     <MESSAGE value="ukoly na doreseni" />
     <MESSAGE value="workspace" />
@@ -629,17 +614,8 @@
     <MESSAGE value="doplnil jsem vysvetlivky" />
     <MESSAGE value="upravil jsem vystup pri prazdne fronte, poznamky" />
     <MESSAGE value="dodelal jsem funkce co byli za ukol" />
-    <option name="LAST_COMMIT_MESSAGE" value="dodelal jsem funkce co byli za ukol" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Good_practice/Creational Patterns/factory_method_basic.py</url>
-          <line>18</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="vytvareni materialu pro pochopeni tohoto bloku" />
+    <MESSAGE value="vytvoreni souboru pro druhy behavioral patterns" />
+    <option name="LAST_COMMIT_MESSAGE" value="vytvoreni souboru pro druhy behavioral patterns" />
   </component>
 </project>
